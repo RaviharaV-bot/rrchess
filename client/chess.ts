@@ -283,14 +283,14 @@ export const VARIANTS: { [name: string]: Variant } = {
         chess960: true, icon: "~", icon960: "\\",
     }),
     
-    kingofthehill: new Variant({
-            name: "kingofthehill", tooltip: () => _("bring king to center."),
-            startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-            board: "standard8x8", piece: "standard",
-            pieceRoles: ["k", "q", "r", "b", "n", "p"],
-            enPassant: true,
-            icon: "🏳️",
-          }),
+    losers: new Variant({
+      name: "losers", tooltip: () => _("loserschess."),
+      startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      board: "standard8x8", piece: "standard",
+      pieceRoles: ["k", "q", "r", "b", "n", "p"],
+      enPassant: true,
+      chess960: true, icon: "♔", icon960: "♔",
+    }),
     
     horde: new Variant({
             name: "horde", tooltip: () => _("Horde Chess."),
