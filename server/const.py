@@ -73,8 +73,8 @@ VARIANT_ICONS = {
     "racingkings": "♔",
     "antichess": "♔",
     "antichess960": "♔",
-    "losers": "♔"
-#    "losers960": "♔"
+    "losers": "♔",
+    "losers960": "♔",
     "horde": "♟",
     "threecheck": "♟",
     "capablanca": "P",
