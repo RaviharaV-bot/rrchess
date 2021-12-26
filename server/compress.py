@@ -17,7 +17,7 @@ V2C = {
     "kingofthehill": "L",
     "racingkings": "F",
     "antichess": "f",
-    "losers": "Z",
+    "losers": "N",
     "horde": "H",
     "threecheck": "V",
     "makruk": "m",
