@@ -285,7 +285,7 @@ export const VARIANTS: { [name: string]: Variant } = {
     
     loserschess: new Variant({
       name: "loserschess", tooltip: () => _("loserschess."),
-      startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      startFen: "k2K4/rP6/2P5/8/8/8/8/8 b - - 0 1",
       board: "standard8x8", piece: "standard",
       pieceRoles: ["k", "q", "r", "b", "n", "p"],
       enPassant: true,
