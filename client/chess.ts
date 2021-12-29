@@ -312,7 +312,7 @@ export const VARIANTS: { [name: string]: Variant } = {
           
     antichess: new Variant({
       name: "antichess", tooltip: () => _("capture all pieces."),
-      startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1",
+      startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
       board: "standard8x8", piece: "standard",
       pieceRoles: ["k", "q", "r", "b", "n", "p"],
       enPassant: true,
