@@ -47,7 +47,7 @@ VARIANTS = (
 #   "chess960",
     "antichess",
     "antichess960",
-    "loserschess",
+    "losers",
     # We support to import/store/analyze these variants
     # but don't support to add them to leaderboard page
     # "gothic",
