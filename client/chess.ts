@@ -283,9 +283,9 @@ export const VARIANTS: { [name: string]: Variant } = {
         chess960: true, icon: "~", icon960: "\\",
     }),
     
-    loserschess: new Variant({
-      name: "loserschess", tooltip: () => _("loserschess."),
-      startFen: "k2K4/rP6/2P5/8/8/8/8/8 b - - 0 1",
+    losers: new Variant({
+      name: "losers", tooltip: () => _("losers."),
+      startFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
       board: "standard8x8", piece: "standard",
       pieceRoles: ["k", "q", "r", "b", "n", "p"],
       enPassant: true,
